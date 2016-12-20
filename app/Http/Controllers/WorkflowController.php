@@ -4,8 +4,19 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class workflow extends Controller
+class WorkflowController extends Controller
 {
+    
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     /**
      * Display a listing of the resource.
      *
@@ -13,7 +24,7 @@ class workflow extends Controller
      */
     public function index()
     {
-        //
+        return view('adminlte::workflow');
     }
 
     /**

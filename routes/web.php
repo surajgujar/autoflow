@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('adminlte::auth.login');
 });
 
+Route::resource('workflow', 'WorkflowController');
+
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {
 //        // Uses Auth Middleware
