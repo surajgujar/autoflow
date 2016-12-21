@@ -315,8 +315,9 @@
   }
     function getNodeData(node)
     {
-        //alert(node.data.text);
-        save();
+      $("#myModal").modal();
+      save();
+      $(".modal-backdrop").hide();
       console.log(node.data.text)
       //console.log(node)
     }
