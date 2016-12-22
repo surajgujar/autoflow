@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "401b8cc774dec08d26bbcbd967a44b3a",
+    "content-hash": "7667f7a2fe2da2c8401015e128b795a4",
     "packages": [
         {
             "name": "acacha/admin-lte-template-laravel",
@@ -950,6 +950,44 @@
                 "php"
             ],
             "time": "2016-12-06T11:30:35+00:00"
+        },
+        {
+            "name": "nvd/crud-generator",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/engrnvd/laravel-crud-generator.git",
+                "reference": "7c6e961dae1ae10156e04ce80d54d3d5e755cebb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/engrnvd/laravel-crud-generator/zipball/7c6e961dae1ae10156e04ce80d54d3d5e755cebb",
+                "reference": "7c6e961dae1ae10156e04ce80d54d3d5e755cebb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Nvd\\Crud\\": [
+                        "src"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Naveed ul Hassan",
+                    "email": "08es34@gmail.com"
+                }
+            ],
+            "description": "CRUD generator for Laravel",
+            "time": "2016-02-03T06:27:10+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2551,16 +2589,16 @@
         },
         {
             "name": "phpunit/php-code-coverage",
-            "version": "4.0.3",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929"
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/903fd6318d0a90b4770a009ff73e4a4e9c437929",
-                "reference": "903fd6318d0a90b4770a009ff73e4a4e9c437929",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/c14196e64a78570034afd0b7a9f3757ba71c2a0a",
+                "reference": "c14196e64a78570034afd0b7a9f3757ba71c2a0a",
                 "shasum": ""
             },
             "require": {
@@ -2610,7 +2648,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-11-28T16:00:31+00:00"
+            "time": "2016-12-20T15:22:42+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",

@@ -62,6 +62,10 @@ class ComposerStaticInitda21bcc781a7d4f7b210a3b7a3f3e7a0
             'Psr\\Log\\' => 8,
             'PhpParser\\' => 10,
         ),
+        'N' => 
+        array (
+            'Nvd\\Crud\\' => 9,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
@@ -197,6 +201,10 @@ class ComposerStaticInitda21bcc781a7d4f7b210a3b7a3f3e7a0
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
+        'Nvd\\Crud\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nvd/crud-generator/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -295,6 +303,7 @@ class ComposerStaticInitda21bcc781a7d4f7b210a3b7a3f3e7a0
 
     public static $classMap = array (
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
+        'CreateSnippetTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_22_112239_create_snippet_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'CreateWorkflowTable' => __DIR__ . '/../..' . '/database/migrations/2016_12_20_125724_create_workflow_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
@@ -826,7 +835,6 @@ class ComposerStaticInitda21bcc781a7d4f7b210a3b7a3f3e7a0
         'SebastianBergmann\\RecursionContext\\InvalidArgumentException' => __DIR__ . '/..' . '/sebastian/recursion-context/src/InvalidArgumentException.php',
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
-        'Snippet' => __DIR__ . '/../..' . '/database/migrations/2016_12_20_115119_snippet.php',
         'TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
     );

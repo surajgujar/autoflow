@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::resource('workflow', 'WorkflowController');
+Route::resource('snippet','SnippetController');
 
 Route::group(['middleware' => 'auth'], function () {
     //    Route::get('/link1', function ()    {
