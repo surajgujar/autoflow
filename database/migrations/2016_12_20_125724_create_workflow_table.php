@@ -17,9 +17,8 @@ class CreateWorkflowTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->binary('serialize_data');
-            $table->enum('status', [0,1]);
-            $table->timestamp('created_date')->nullable();
-            $table->timestamp('modified_date')->nullable();
+            $table->enum('status', ['0','1']);
+            $table->timestamps();
         });
     }
 

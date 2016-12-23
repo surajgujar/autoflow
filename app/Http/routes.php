@@ -8,3 +8,4 @@
 
 
 Route::resource('snippet','SnippetController');
+Route::resource('workflow','WorkflowController');

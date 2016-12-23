@@ -15,7 +15,10 @@ Route::get('/', function () {
     return view('adminlte::auth.login');
 });
 
+Route::get('/chart', 'WorkflowController@chart');
+
 Route::resource('workflow', 'WorkflowController');
+
 Route::resource('snippet','SnippetController');
 
 Route::group(['middleware' => 'auth'], function () {

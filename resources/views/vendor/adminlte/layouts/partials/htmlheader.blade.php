@@ -20,7 +20,7 @@
         ]) !!};
     </script>
 
-<script src="assets/go.js"></script>
-<link href="assets/css/goSamples.css" rel="stylesheet" type="text/css" />  <!-- you don't need to use this -->
-<script src="assets/goSamples.js"></script>  <!-- this is only for the GoJS Samples framework -->
+<script src="{{ asset('/assets/go.js') }}"></script>
+<link href="{{ asset('/assets/css/goSamples.css') }}" rel="stylesheet" type="text/css" />  <!-- you don't need to use this -->
+<script src="{{ asset('/assets/goSamples.js') }}"></script>  <!-- this is only for the GoJS Samples framework -->
 </head>
